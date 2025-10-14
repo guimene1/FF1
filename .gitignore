@@ -1,0 +1,32 @@
+    # Flutter-specific
+    .dart_tool/
+    .flutter-plugins
+    .flutter-plugins-dependencies
+    .packages
+    .idea/
+    build/
+    *.iml
+    *.lock
+    generated/
+
+    # Android-specific
+    android/local.properties
+    android/.gradle
+    android/build/
+    android/app/build/
+    android/key.properties # if storing sensitive keys locally
+
+    # iOS-specific
+    ios/.symlinks/
+    ios/Flutter/Generated.xcconfig
+    ios/Flutter/AppFrameworkInfo.plist
+    ios/Pods/
+    ios/.idea/
+    ios/build/
+
+    # VS Code specific
+    .vscode/
+
+    # Other common
+    .env # for environment variables
+    # Add any other generated files, secrets, or platform-specific configurations
